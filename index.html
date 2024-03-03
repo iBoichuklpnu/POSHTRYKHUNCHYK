@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поштрихунчик | Мобільний додаток</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+    <style>
+
+   
+
+        header {
+            display: flex;
+            background-color: #599191;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+        
+        }
+
+        main{
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Inter';
+        }
+
+        footer {
+            background-color: #599191;
+            color: white;
+            align-items: center;
+        }
+
+        .footer-contacts {
+            display: flex;
+            
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+        }
+
+   
+
+        .footer-nav {
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+
+
+
+        nav {          
+            align-items: center;
+            color: white;
+        }
+
+        nav a {        
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        h1 {
+            color: #00ACC1;
+            font-size: 48px;
+            font-family: 'Caveat';
+            font-weight: 200;
+           
+        }
+
+        .section-ad h2 {
+            font-size: 32px;
+            font-family: 'Caveat';
+            font-weight: 200;
+                    
+        }
+
+        button {
+            color: white;
+            background-color: #00ACC1;
+            border-radius: 30px;
+            border: 0cap;
+            height: 48px;
+            width: 160px;
+            margin: 12px;
+            
+        }
+
+        .banner {
+            justify-content: center;
+            text-align: center;
+        }
+
+        section {
+                     
+            text-align: center;
+            width: 100%;
+                        
+        }
+
+        .section-ad {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: left;
+            background-color: #E1A751;  
+            margin-top: 96px;  
+            margin-bottom: 96px; 
+      
+            
+        }
+
+        .section-ad img {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: -48px; 
+            margin-bottom: -48px; 
+         
+            
+        }
+
+        .section-ad div {
+            margin: 48px; 
+            max-width: 600px;                       
+        }
+
+        .equipment-box {            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .equipment-item {
+            justify-content: center;
+            text-align: center;
+            margin-left: 12px;
+            align-items: center;
+
+        }
+
+        .equipment-item img {
+            height: 180px;
+
+        }
+
+        .equipment-item p {
+            background-color: #00ACC1;
+            color: white;
+            height: 50px;
+            vertical-align: center;
+
+        }
+
+        section img {
+            display: flex;
+            justify-content: end;
+
+        }
+
+        table {
+            border-color: #889595;
+            border-width: 1;
+            text-align: center;
+
+            margin-left: auto;
+            margin-right: auto;
+            
+
+            
+        }
+
+        thead {
+            background-color: #889595;
+            color: white;
+            font-size: 24px;
+
+        }
+
+        tfoot {
+            background-color: #889595;
+        }
+
+        tfoot button {
+            background-color: black;
+        }
+
+        /* Responsive layout - makes a one column layout instead of a two-column layout */
+        @media (max-width: 800px) {
+            .footer-contacts {
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .footer-nav {
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
+
+            nav {
+                flex-direction: column;
+
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="media/logo.svg" alt="Логотип Поштрихунчик" width="48" height="48">
+        <nav>
+
+            <div>
+                <a href="">Домашня сторінка</a>
+                <a href="">Послуги</a>
+                <a href="">Новини</a>
+                <a href="">Історії успіху</a>
+                <a href="">Про нас</a>
+            </div>
+           
+        </nav>
+        <div>
+            
+            <a href="">Увійти</a>
+            <button>Зв’язатися з нами</button>
+
+        </div>
+
+
+
+    </header>
+    <main>
+
+        <section class="banner">
+
+            <div>
+                <h1>Розкрийте потенціал зростання</h1>
+                <p>Задайте питання нашим менеджерам.<br>
+                    Вони допоможуть підібрати оптимальне рішення для вашого бізнесу</p>
+                <button>Зв’язатися з нами</button>
+            </div>
+        </section>
+
+        <section class="section-ad">
+            
+            <div>
+                <h2>Плануйте роботу працівників складу</h2>
+                <p>Формуйте задачі для працівників у вашій обліковій системі.<br>
+                    Задачі з’являються на терміналі в режимі реального часу.</p>
+                <button>Почнімо планувати</button>
+            </div>
+            <img src="media/image 1.png" alt="Завдання на сканування">
+            
+
+        </section>
+
+        <section class="section-ad">
+            
+            <div>
+                <h2>Котролюйте ціни в магазині</h2>
+                <p>При скануванні цінника, Поштрихунчик надає інформаціїю про актуальну ціну.<br>
+                    Система розпізнає зміни в ціні та дозволяє надрукувати нові цінники</p>
+                <button>Дізнатись більше</button>
+            </div>        
+            <img src="media/image 2.png" alt="Контроль цінників">
+        </section>
+
+        <section class="section-ad">
+            
+            <div>
+                <h2>Контролюйте свіжість продукції</h2>
+                <p>Поштрихунчик відслідковує терміни придатності та<br>
+                    формує завдання на міні ревізії по товарах з коротким терміном.</p>
+                <button>Дізнатись більше</button>
+            </div>
+            <img src="media/image 3.png" alt="Контроль термінів придатності">
+        </section>
+
+        <section>
+            <div>
+                <h2>Поштрихунчик підтримує роботу з пристроями на
+                    ОС Android версії 6 та вище</h2>
+                <p>
+                    Для найкращого користувацького досвіду рекомендуємо пристрої з вбудаваним
+                    сканером штрихкодів
+                </p>
+
+                <div class="equipment-box">
+
+                    <div class="equipment-item">
+                        <img src="media/image 6.png" alt="Image Point Mobile 75">
+                        <p>Point Mobile 75</p>
+                    </div>
+
+                    <div class="equipment-item">
+                        <img src="media/image 6 (1).png" alt="Image Bita CM66">
+                        <p>Bita CM66</p>
+                    </div>
+
+                    <div class="equipment-item">
+                        <img src="media/image 6 (2).png" alt="Image Point Mobile PM550">
+                        <p style="background-color: black;">
+                            Point Mobile PM550
+                        </p>
+                    </div>
+
+                    <div class="equipment-item">
+                        <img src="media/image 6 (3).png" alt="Image Point Mobile PM85">
+                        <p>Point Mobile PM85</p>
+                    </div>
+
+                    <div class="equipment-item">
+                        <img src="media/image 6 (4).png" alt="Image Caribe PL45">
+                        <p>Caribe PL45</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Ціни для під ваші потреби</h2>
+
+
+
+            <table>
+                <thead>
+                    <th>
+                        Хмара
+                    </th>
+                    <th>
+                        Хмара+
+                    </th>
+                    <th>
+                        Власний сервер
+                    </th>
+                </thead>
+                <tbody>
+                    <tr rowspan="2">
+                        <td>Безкоштовно</td>
+                        <td>₴1700</td>
+                        <td>₴1200</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Робоче місце / місяць</td>
+                        <td>Год. роботи фахівця</td>
+                    </tr>
+                    <tr>
+                        <td>Базова інтеграція з обліковими системами</td>
+                        <td>Базова інтеграція з обліковими системами</td>
+                        <td>Доступні всі базові можливості додатку</td>
+
+                    </tr>
+                    <tr>
+                        <td>Перевірка цінників</td>
+                        <td>Доступні всі базові можливості додатку</td>
+                        <td>Доопрацювання під потреби замовника</td>
+                    </tr>
+                    <tr>
+                        <td>Проведення інвентаризацій</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <th>
+                        <button>Замовити демо</button>
+                    </th>
+                    <th>
+                        <button>Почати зараз</button>
+                    </th>
+                    <th>
+                        <button>Зв’язатись з нами</button>
+                    </th>
+                </tfoot>
+
+            </table>
+
+
+        </section>
+
+
+    </main>
+    <footer>
+
+        <div class="footer-contacts">
+            <div>
+                <p>Подзвоніть нам:</p>
+                <p>+38 097 000 00 00</p>
+            </div>
+            <div>
+                <p>Напишіть нам:</p>
+                <p>ivan.boichuk.pts.2023@lpnu.ua</p>
+            </div>
+            <div>
+                <p>Стежте за нами:</p>
+                <div>
+                    <img src="media/image 5.png" alt="LinkedIn logo">
+                    <img src="media/image 7.png" alt="Instagram logo">
+                    <img src="media/image 8.png" alt="X logo">
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="footer-nav">
+
+            <div>
+            <img src="media/logo.svg" alt="Логотип Поштрихунчик" width="48" height="48">
+            <span>Copyright ©Поштрихунчик</span>
+        </div>
+
+            <nav>
+                <a href="">Домашня сторінка</a>
+                <a href="">Послуги</a>
+                <a href="">Новини</a>
+                <a href="">Історії успіху</a>
+                <a href="">Про нас</a>
+            </nav>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
