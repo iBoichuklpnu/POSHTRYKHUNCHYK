@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поштрихунчик | Мобільний додаток</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="Media/icon32.png" />
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+            <div class="menu-desktop" style="margin-right: 0;">
+
+                <img src="media/logo.svg" alt="Логотип Поштрихунчик" width="48" height="48"
+                    onclick="window.location.href='index.html'">
+                <a href="index.html">Головна</a>
+                <a href="index.html#equipment">Обладнання</a>
+                <a href="index.html#prices">Ціни</a>
+                <a href="not_finished_yet.html">Історії успіху</a>
+                <a href="about_us.html">Про нас</a>
+            </div>
+
+            <div class="menu-desktop" style="margin-left: 0;">
+                <a href="not_finished_yet.html">Увійти</a>
+
+                <button onclick="window.location.href='contact_us.html'">Зв’язатися з нами</button>
+
+            </div>
+
+            <div class="menu-hamburger">
+
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <img src="media/logo.svg" alt="Логотип Поштрихунчик" width="48" height="48"
+                    style="margin-right: 48px; position: absolute; left: 12; top: 12; z-index: 3;"
+                    onclick="window.location.href='index.html'">
+
+                <ul class="menu-box">
+                    <li><a href="not_finished_yet.html">Увійти</a></li>
+                    <hr>
+                    <li><a class="menu__item" href="index.html">Головна</a></li>
+                    <li><a class="menu__item" href="index.html#equipment">Обладнання</a></li>
+                    <li><a class="menu__item" href="index.html#prices">Ціни</a></li>
+                    <li><a class="menu__item" href="not_finished_yet.html">Історії успіху</a></li>
+                    <li><a class="menu__item" href="about_us.html">Про нас</a></li>
+                    <hr>
+                    <li><button onclick="window.location.href='contact_us.html'">Зв’язатися з нами</button></li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <Main class="contact_us-main">
+
+        <section class="banner">
+            <h1>Зв’яжіться з нами</h1>
+            <p>Звертайтеся до нас з будь-якими питаннями, що стосуються нашої компанії чи послуг.<br>
+                Ми зробимо все можливе, щоб якнайшвидше відповісти вам.</p>
+
+            <p class="footer-p"><a
+                    href="mailto:ivan.boichuk.pts.2023@lpnu.ua?subject=Поштрихунчик">ivan.boichuk.pts.2023@lpnu.ua</a>
+            </p>
+            <p class="footer-p"><a href="tel:+380970000000">+38(097)000-00-00</a></p>
+
+        </section>
+
+        <form>
+
+            <fieldset>
+
+
+                <div class="cont">
+                    <label for="name">Ім'я*</label>
+                    <input id="name" type="text" required>
+                </div>
+                <div class="cont">
+                    <label for="phone_number">Номер телефону</label>
+                    <input id="phone_number" type="tel" placeholder="+38(0__)___-__-__">
+                </div>
+                <div class="cont">
+                    <label for="email">Email*</label>
+                    <input id="email" type="email" placeholder="examlpe@lpnu.ua" required>
+                </div>
+
+                <div class="cont">
+                    <label for="comment">Повідомлення</label>
+                    <textarea id="comment" rows="5"></textarea>
+                </div>
+
+                <div class="agreement">
+                    <input type="checkbox" id="agreement">
+                    <label for="agreement">Даю згоду на обробку персональних данних, згідно з <a href="#">політикою
+                            конфіденційності</a></label>
+                </div>
+            </fieldset>
+
+            <button type="submit" id="submit">Надіслати</button>
+        </form>
+
+    </Main>
+
+    <footer>
+
+        <div class="footer-contacts">
+            <div>
+                <p>Подзвоніть нам:</p>
+                <p class="footer-p">+38(097)000-00-00</p>
+            </div>
+            <div>
+                <p>Напишіть нам:</p>
+                <p class="footer-p">ivan.boichuk.pts.2023@lpnu.ua</p>
+            </div>
+            <div>
+                <p>Стежте за нами:</p>
+                <span class="sotial">
+                    <img src="media/image 5.png" alt="LinkedIn logo">
+                    <img src="media/image 7.png" alt="Instagram logo">
+                    <img src="media/image 8.png" alt="X logo">
+                </span>
+            </div>
+        </div>
+
+        <hr>
+
+        <nav class="footer-nav">
+            <div onclick="window.location.href='index.html'">
+                <img src="media/logo.svg" alt="Логотип Поштрихунчик" width="48" height="48">
+                <span>Copyright ©Поштрихунчик</span>
+            </div>
+
+            <div>
+                <a href="index.html">Головна</a>
+                <a href="index.html#equipment">Обладнання</a>
+                <a href="index.html#prices">Ціни</a>
+                <a href="not_finished_yet.html">Історії успіху</a>
+                <a href="about_us.html">Про нас</a>
+            </div>
+        </nav>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Стилі для батьківського елемента */
+        .parent {
+            position: relative;
+            width: 50%;
+            /* Наприклад, батьківський елемент займає половину ширини вікна */
+            margin: 0 auto;
+            /* Центруємо батьківський елемент по горизонталі */
+            background-color: lightblue;
+            /* Для наглядності */
+        }
+
+        /* Стилі для підпорядкованого елемента */
+        .child {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            /* Займає всю ширину вікна */
+            background-color: lightcoral;
+            /* Для наглядності */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="child">
+            <h1>hello</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>

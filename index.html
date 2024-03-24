@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поштрихунчик | Мобільний додаток</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="Media/icon32.png" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="menu-desktop" style="margin-right: 0;">
+
+                <img src="media/logo.svg" alt="Логотип Поштрихунчик" width="48" height="48"
+                    onclick="window.location.href='index.html'">
+                <a href="index.html">Головна</a>
+                <a href="index.html#equipment">Обладнання</a>
+                <a href="index.html#prices">Ціни</a>
+                <a href="not_finished_yet.html">Історії успіху</a>
+                <a href="about_us.html">Про нас</a>
+            </div>
+
+            <div class="menu-desktop" style="margin-left: 0;">
+                <a href="not_finished_yet.html">Увійти</a>
+
+                <button onclick="window.location.href='contact_us.html'">Зв’язатися з нами</button>
+
+            </div>
+
+            <div class="menu-hamburger">
+
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <img src="media/logo.svg" alt="Логотип Поштрихунчик" width="48" height="48"
+                    style="margin-right: 48px; position: absolute; left: 12; top: 12; z-index: 3;"
+                    onclick="window.location.href='index.html'">
+
+                <ul class="menu-box">
+                    <li><a href="not_finished_yet.html">Увійти</a></li>
+                    <hr>
+                    <li><a class="menu__item" href="index.html">Головна</a></li>
+                    <li><a class="menu__item" href="index.html#equipment">Обладнання</a></li>
+                    <li><a class="menu__item" href="index.html#prices">Ціни</a></li>
+                    <li><a class="menu__item" href="not_finished_yet.html">Історії успіху</a></li>
+                    <li><a class="menu__item" href="about_us.html">Про нас</a></li>
+                    <hr>
+                    <li><button onclick="window.location.href='contact_us.html'">Зв’язатися з нами</button></li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="banner">
+
+            <div>
+                <h1 style="position: relative;">
+                    <img class="img-p-top" src="Media/Поштрихунчик2 1 (1).png" alt="Banny">
+                    Розкрийте потенціал зростання
+                </h1>
+                <p>Задайте питання нашим менеджерам.<br>
+                    Вони допоможуть підібрати оптимальне рішення для вашого бізнесу</p>
+                <button onclick="window.location.href='contact_us.html'">
+
+                    Зв’язатися з нами
+                </button>
+
+            </div>
+
+
+        </section>
+
+        <section class="section-yellow">
+
+            <div class="section-ad">
+
+                <div>
+                    <h2>Плануйте роботу працівників складу</h2>
+                    <p>Формуйте задачі для працівників у вашій обліковій системі.<br>
+                        Задачі з’являються на терміналі в режимі реального часу.</p>
+                    <button onclick="window.location.href='contact_us.html'">Почнімо планувати</button>
+                </div>
+
+                <video poster="media/tasks_poster.jpg" muted controls>
+                    <source src="Media/tasks.mp4" type="video/mp4">
+                    Ваш браузер не підтримує вбудоване відео.
+                </video>
+            </div>
+
+        </section>
+
+        <section class="section-yellow">
+
+            <div class="section-ad">
+
+                <div>
+                    <h2>Котролюйте ціни в магазині</h2>
+                    <p>При скануванні цінника, Поштрихунчик надає інформаціїю про актуальну ціну.<br>
+                        Система розпізнає зміни в ціні та дозволяє надрукувати нові цінники</p>
+                    <button onclick="window.location.href='contact_us.html'">Дізнатись більше</button>
+                </div>
+                <img src="media/image 2.png" alt="Контроль цінників">
+
+
+
+            </div>
+        </section>
+
+        <section class="section-yellow">
+
+            <div class="section-ad">
+
+                <div>
+                    <h2>Контролюйте свіжість продукції</h2>
+                    <p>Поштрихунчик відслідковує терміни придатності та<br>
+                        формує завдання на міні ревізії по товарах з коротким терміном.</p>
+                    <button onclick="window.location.href='contact_us.html'">Дізнатись більше</button>
+                </div>
+                <img src="media/image 3.png" alt="Контроль термінів придатності">
+            </div>
+        </section>
+
+        <section id="equipment">
+            <div>
+                <h2>Поштрихунчик підтримує роботу з пристроями на<br>
+                    ОС Android версії 6 та вище</h2>
+                <p>
+                    Для найкращого користувацького досвіду рекомендуємо пристрої з вбудаваним<br>
+                    сканером штрихкодів
+                </p>
+
+                <div class="equipment-box">
+
+                    <div class="equipment-item">
+                        <img src="media/image 6.png" alt="Image Point Mobile 75">
+                        <div>
+                            <p>Point Mobile 75</p>
+                        </div>
+                    </div>
+
+                    <div class="equipment-item">
+                        <img src="media/image 6 (3).png" alt="Image Point Mobile PM85">
+                        <p>Point Mobile PM85</p>
+                    </div>
+
+                    <div class="equipment-item">
+                        <img src="media/image 6 (2).png" alt="Image Point Mobile PM550">
+                        <p>
+                            Point Mobile PM550
+                        </p>
+                    </div>
+
+                    <div class="equipment-item">
+                        <img src="media/image 6 (4).png" alt="Image Caribe PL45">
+                        <p>Caribe PL45</p>
+                    </div>
+
+                    <div class="equipment-item">
+                        <img src="media/image 6 (1).png" alt="Image Bita CM66">
+                        <p>Bita CM66</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="prices">
+            <h2>Ціни для під ваші потреби</h2>
+
+            <div class="prices">
+                <div class="img-p-bottom"></div>
+                <table>
+                    <thead>
+                        <th>
+                            Хмара
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="td-price">Безкоштовно</td>
+                        </tr>
+                        <tr>
+                            <td>Базова інтеграція з обліковими системами</td>
+                        </tr>
+                        <tr>
+                            <td>Перевірка цінників</td>
+                        </tr>
+                        <tr>
+                            <td>Проведення інвентаризацій</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <th>
+                            <button onclick="window.location.href='contact_us.html'">Замовити демо</button>
+                        </th>
+                    </tfoot>
+                </table>
+
+                <table class="table-price">
+                    <thead>
+
+                        <th>
+                            Хмара+
+                        </th>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="td-price">₴1700 <p>Робоче місце / місяць</p>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Базова інтеграція з обліковими системами</td>
+                        </tr>
+                        <tr>
+                            <td>Доступні всі базові можливості додатку</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <th>
+                            <button onclick="window.location.href='contact_us.html'">Почати зараз</button>
+                        </th>
+                    </tfoot>
+
+                </table>
+
+                <table>
+                    <thead>
+
+                        <th>
+                            Власний сервер
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td class="td-price">₴1200<p>Год. роботи фахівця</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Доступні всі базові можливості додатку</td>
+                        </tr>
+                        <tr>
+                            <td>Доопрацювання під потреби замовника</td>
+                        </tr>
+                        <tr>
+                            <td>Проведення інвентаризацій</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+
+                        <th>
+                            <button onclick="window.location.href='contact_us.html'">Зв’язатись з нами</button>
+                        </th>
+                    </tfoot>
+
+                </table>
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer>
+
+        <div class="footer-contacts">
+            <div>
+                <p>Подзвоніть нам:</p>
+                <p class="footer-p">+38(097)000-00-00</p>
+            </div>
+            <div>
+                <p>Напишіть нам:</p>
+                <p class="footer-p">ivan.boichuk.pts.2023@lpnu.ua</p>
+            </div>
+            <div>
+                <p>Стежте за нами:</p>
+                <span class="sotial">
+                    <img src="media/image 5.png" alt="LinkedIn logo">
+                    <img src="media/image 7.png" alt="Instagram logo">
+                    <img src="media/image 8.png" alt="X logo">
+                </span>
+            </div>
+        </div>
+
+        <hr>
+
+        <nav class="footer-nav">
+            <div onclick="window.location.href='index.html'">
+                <img src="media/logo.svg" alt="Логотип Поштрихунчик" width="48" height="48">
+                <span>Copyright ©Поштрихунчик</span>
+            </div>
+
+            <div>
+                <a href="index.html">Головна</a>
+                <a href="index.html#equipment">Обладнання</a>
+                <a href="index.html#prices">Ціни</a>
+                <a href="not_finished_yet.html">Історії успіху</a>
+                <a href="about_us.html">Про нас</a>
+            </div>
+        </nav>
+
+    </footer>
+</body>
+
+</html>
