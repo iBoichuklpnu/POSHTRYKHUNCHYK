@@ -325,8 +325,15 @@ table {
 
 }
 
+/*
 .table-price {
     background-color: #599191;
+}
+*/
+
+table:hover{
+    background-color: #599191;
+    box-shadow: 0px 0px 8px #889595;
 }
 
 thead {
@@ -368,6 +375,12 @@ tr {
 tfoot button {
     background-color: black;
     margin: 24px;
+}
+
+tfoot button:hover {
+    background-color: black;
+    margin: 24px;
+    box-shadow: 0px 0px 8px black;
 }
 
 footer {
@@ -459,6 +472,7 @@ form {
 #submit:hover {
     background-color: #599191;
 }
+
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media screen and (max-width: 960px) {
