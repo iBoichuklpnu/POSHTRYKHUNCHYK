@@ -5,9 +5,11 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Поштрихунчик | Мобільний додаток</title>
+    <title>Програма для терміналу збору даних, автоматизація складу на базі Поштрихунчик.</title>
+    <meta name="description"
+        content="Поштрихунчик - це програмне забезпечення для автоматизації складу, яке дозволяє збирати, обробляти та зберігати дані про товари. З його допомогою компанії можуть зменшити витрати на ручну роботу, покращити точність та швидкість обробки даних, а також підвищити ефективність управління складом.">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="Media/icon32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="media/icon32.png" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +44,6 @@
 
             </div>
 
-
             <div class="menu-hamburger">
 
                 <input id="menu__toggle" type="checkbox" />
@@ -76,15 +77,18 @@
 
         <section class="banner">
 
-            <div >
-                <h1 style="position: relative;"><img class="img-p-top" src="Media/Поштрихунчик2 1 (1).png" alt="Banny">Розкрийте потенціал зростання</h1>
+            <div>
+                <h1 style="position: relative;">
+                    <img class="img-p-top" src="media/Поштрихунчик2 1 (1).png" alt="Banny">
+                    Розкрийте потенціал зростання
+                </h1>
                 <p>Задайте питання нашим менеджерам.<br>
                     Вони допоможуть підібрати оптимальне рішення для вашого бізнесу</p>
-                <button  onclick="window.location.href='contact_us.html'">
-                    
+                <button onclick="window.location.href='contact_us.html'">
+
                     Зв’язатися з нами
                 </button>
-                
+
             </div>
 
 
@@ -98,9 +102,13 @@
                     <h2>Плануйте роботу працівників складу</h2>
                     <p>Формуйте задачі для працівників у вашій обліковій системі.<br>
                         Задачі з’являються на терміналі в режимі реального часу.</p>
-                    <button>Почнімо планувати</button>
+                    <button onclick="window.location.href='contact_us.html'">Почнімо планувати</button>
                 </div>
-                <img src="media/image 1.png" alt="Завдання на сканування">
+
+                <video poster="media/tasks_poster.jpg" muted controls>
+                    <source src="media/tasks.mp4" type="video/mp4">
+                    Ваш браузер не підтримує вбудоване відео.
+                </video>
             </div>
 
         </section>
@@ -113,9 +121,12 @@
                     <h2>Котролюйте ціни в магазині</h2>
                     <p>При скануванні цінника, Поштрихунчик надає інформаціїю про актуальну ціну.<br>
                         Система розпізнає зміни в ціні та дозволяє надрукувати нові цінники</p>
-                    <button>Дізнатись більше</button>
+                    <button onclick="window.location.href='contact_us.html'">Дізнатись більше</button>
                 </div>
                 <img src="media/image 2.png" alt="Контроль цінників">
+
+
+
             </div>
         </section>
 
@@ -127,7 +138,7 @@
                     <h2>Контролюйте свіжість продукції</h2>
                     <p>Поштрихунчик відслідковує терміни придатності та<br>
                         формує завдання на міні ревізії по товарах з коротким терміном.</p>
-                    <button>Дізнатись більше</button>
+                    <button onclick="window.location.href='contact_us.html'">Дізнатись більше</button>
                 </div>
                 <img src="media/image 3.png" alt="Контроль термінів придатності">
             </div>
@@ -183,7 +194,7 @@
             <h2>Ціни для під ваші потреби</h2>
 
             <div class="prices">
-
+                <div class="img-p-bottom"></div>
                 <table>
                     <thead>
                         <th>
@@ -206,7 +217,7 @@
                     </tbody>
                     <tfoot>
                         <th>
-                            <button>Замовити демо</button>
+                            <button onclick="window.location.href='contact_us.html'">Замовити демо</button>
                         </th>
                     </tfoot>
                 </table>
@@ -237,7 +248,7 @@
                     </tbody>
                     <tfoot>
                         <th>
-                            <button>Почати зараз</button>
+                            <button onclick="window.location.href='contact_us.html'">Почати зараз</button>
                         </th>
                     </tfoot>
 
@@ -270,7 +281,7 @@
                     <tfoot>
 
                         <th>
-                            <button>Зв’язатись з нами</button>
+                            <button onclick="window.location.href='contact_us.html'">Зв’язатись з нами</button>
                         </th>
                     </tfoot>
 
@@ -283,11 +294,10 @@
     </main>
     <footer>
 
-
         <div class="footer-contacts">
             <div>
                 <p>Подзвоніть нам:</p>
-                <p class="footer-p">+38 097 000 00 00</p>
+                <p class="footer-p">+38(097)000-00-00</p>
             </div>
             <div>
                 <p>Напишіть нам:</p>
